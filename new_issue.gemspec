@@ -21,8 +21,8 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.0.0'
 
-  spec.add_runtime_dependency 'awesome_bot'
-  spec.add_runtime_dependency 'octokit', '~> 4.2.0' # github
-  spec.add_runtime_dependency 'netrc', '~> 0.11.0' # github creds
+  spec.add_runtime_dependency 'awesome_bot'         # find links
+  spec.add_runtime_dependency 'octokit',            # github
+  spec.add_runtime_dependency 'netrc', '~> 0.11.0'  # github creds
 
   end
